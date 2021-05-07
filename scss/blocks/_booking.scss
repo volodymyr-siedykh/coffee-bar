@@ -1,0 +1,98 @@
+.booking {
+   margin-bottom: 10rem;
+}
+
+.booking-bg {
+   background-image: url(/img/coffee-shop-bg.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.booking__wrapper {
+   
+   padding: 5rem;
+}
+.booking__form {
+   display: flex;
+   margin: 0 auto;
+   flex-direction: column;
+   max-width: 48rem;
+   height: 55.6rem;
+   border-radius: 1rem;
+   background-color: $white;
+   text-align: center;
+}
+
+.booking__title {
+   padding-top: 1.6rem;
+   height: 9.4rem;
+   background-color: #000000;
+   color: $white;
+   font-family: $kaushan;
+   font-size: 3.6rem;
+   line-height: 5.2rem;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+   clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 90%, 0% 60%);
+}
+
+.booking__subtitle {
+   margin-top: 2.6rem;
+   font-family: $vidaloka;
+   font-size: 2.4rem;
+   line-height: 2.9rem;
+   color: $black;
+}
+
+.booking__time {
+   margin-top: 3.2rem;
+   padding-left: 3.2rem;
+   padding-right: 3.2rem;
+}
+
+.working__time {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1.6rem;
+   border-bottom: 1px solid #000000;
+}
+
+.title__day {
+   color: $black;
+   font-size: 1.6rem;
+   line-height: 2rem;
+   font-family: $montserrat;
+}
+
+.booking__description {
+   padding: 0 3.2rem;
+   margin-top: 3.2rem;
+   color: $black;
+   font-family: $montserrat;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   opacity: 0.7;
+}
+
+.booking__number {
+   margin-top: 2.4rem;
+   font-family: $montserrat;
+   font-weight: 600;
+   font-size: 2.4rem;
+   line-height: 2.9rem;
+}
+
+@media (max-width: 400px) {
+   .bookin__title {
+      font-size: 3rem;
+      line-height: 1.2rem;
+      padding-top: 0;
+   }
+   .booking__subtitle {
+      margin: 0;
+   }
+   .booking__description {
+      line-height: 1.5rem;
+   }
+} 

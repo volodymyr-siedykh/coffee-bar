@@ -1,0 +1,134 @@
+.features {
+   margin-top: 10rem;
+   &__subtitle {
+      margin-bottom: 1rem;
+      font-family: $kaushan;
+      color: $peach;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.4rem;
+      text-align: center;
+      position: relative;
+   }
+   &__title {
+      margin-bottom: 1.4rem;
+      text-align: center;
+      color: $black;
+      font-size: 3.4rem;
+      font-family: $vidaloka;
+      line-height: 4.4rem;
+   }
+   &__review {
+      max-width: 55.2rem;
+      margin: auto;
+      text-align: center;
+      opacity: 70%;
+   }
+}
+
+.features__inner {
+   margin-top: 5.3rem;
+   display: flex;
+   flex-direction: row;
+   &-left {
+      margin-right: 5.6rem;
+      text-align: right;
+   }
+   &-right {
+      margin-left: 4.6rem;
+      text-align: left;
+   }
+}
+
+.features__item-left,
+.features__item-right {
+   max-width: 39rem;
+   height: 15.2rem;
+   border: 1px solid rgba(1, 4, 29, 0.1);
+   border-radius: 1rem;
+   margin-bottom: 8rem;
+}
+
+.features__item-left {
+   padding-left: 3.7rem;
+   padding-right: 7.2rem;
+   position: relative;
+   .item__icon {
+      position: absolute;
+      top: 1.6rem;
+      right: 2.4rem
+   }
+}
+
+.features__item-right {
+   padding-left: 7.2rem;
+   padding-right: 3.7rem;
+   position: relative;
+   .item__icon {
+      position: absolute;
+      top: 1.6rem;
+      left: 2.4rem;
+   }
+}
+
+.item__title {
+   margin-top: 2.4rem;
+   font-family: $vidaloka;
+   font-size: 2rem;
+   line-height: 2rem;
+   color: $black;
+}
+
+.item__text {
+   margin-top: 1.2rem;
+   font-family: $montserrat;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   color: $black;
+   opacity: 0.7;
+}
+
+.item__icon img {
+   width: 3.2rem;
+   height: 3.2rem;
+}
+
+.features__image {
+   & img {
+      width: 100%;
+      height: auto;
+      max-width: 27.8rem;
+      border-radius: 1rem;
+   }
+}
+@media (max-width: 1180px) {
+   .features__image {
+      display: none;
+   }
+   .features__inner {
+      // flex-direction: column;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .features__inner-left {
+      margin: 0;
+   }
+   .features__inner-right {
+      margin: 0;
+   }
+   .features__item {
+      margin: 0;
+   }
+   .features__item-left,
+   .features__item-right {
+      margin: 0 auto 2rem;
+   }
+}
+
+@media (max-width: 830px) {
+   .features__inner {
+      gap: 0;
+      flex-direction: column;
+   }
+}

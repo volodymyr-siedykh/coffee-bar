@@ -1,0 +1,120 @@
+.testimonials {
+   background-color: $light-peach;
+   margin-top: 10rem;
+   padding-bottom: 10rem;
+}
+
+.testimonials__wrapper {
+   display: flex;
+   padding-top: 5rem;
+}
+
+.testimonials-1 {
+   margin-left: 12rem;
+}
+
+.testimonials__subtitle {
+   font-family: Kaushan Script;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: #DE8F3B;
+}
+
+.testimonials__title {
+   font-family: Vidaloka;
+   font-size: 3.6rem;
+   line-height: 4.4rem;
+   color: #01041D;
+}
+
+.testimonials__slider {
+   margin-left: 12rem;
+}
+
+.slider__item {
+   display: flex;
+   flex-direction: column;
+   max-width: 53rem;
+   background: #FFFFFF;
+   box-shadow: 0px 24px 36px rgba(0, 0, 0, 0.05), inset 5px 0px 0px #000000;
+   border-radius: 10px;
+}
+
+.slider__content {
+   padding: 3rem 0 3rem 4rem;
+}
+
+.slider__title {
+   font-size: 2.4rem;
+   font-family: $vidaloka;
+   color: $peach;
+}
+
+.slider__raiting {
+   margin-top: 1.6rem;
+   font-family: $montserrat;
+   font-size: 1.2rem;
+   line-height: 1.4rem;
+   color: $black;
+   opacity: 0.5;
+}
+
+.slider__review {
+   margin-top: 1.6rem;
+   font-family: $montserrat;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   color: $black;
+   opacity: 0.7;
+}
+
+.slider__customer {
+   margin-top: 2.4rem;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.customer__photo {
+   margin-right: 1.6rem;
+   border-radius: 50%;
+   width: 4rem;
+   height: 4rem;
+   background-color: grey;
+}
+
+.customer__name {
+   font-family: $montserrat;
+   font-size: 1.6rem;
+   line-height: 2rem;
+   color: $black;
+}
+
+.customer__ident {
+   font-family: $montserrat;
+   font-weight: 500;
+   font-size: 1.2rem;
+   line-height: 1.4rem;
+   color: $black;
+   opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+   .testimonials__wrapper {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .testimonials-1 {
+      margin-left: 0;
+   }
+   .testimonials__slider {
+      margin-left: 0;
+      margin-top: 3rem;
+   }
+   .testimonials__subtitle {
+      text-align: center;
+   }
+}

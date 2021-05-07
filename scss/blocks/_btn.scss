@@ -1,0 +1,44 @@
+.button__wrapper {
+   display: flex;
+   margin-top: 6rem;
+   margin-bottom: 6rem;
+   gap: 1rem;
+}
+
+.btn {
+   padding: 1.3rem 4rem;
+   border: 0.8px solid $white;
+   border-radius: 4rem;
+   color: $white;
+   font-family: $montserrat;
+   font-size: 1.4rem;
+   line-height: 2rem;
+   text-align: center;
+   font-weight: 500;
+   &-menu {
+      background: linear-gradient(180deg, #DE8F3B 0%, #BD7222 128.87%);
+   }
+   &-book {
+      background: transparent;
+   }
+   &-reservation {
+      margin: 2.4rem auto;
+      background: linear-gradient(180deg, #DE8F3B 0%, #BD7222 128.87%);
+      max-width: 20rem;
+
+   }
+   &-fullmenu {
+      background: transparent;
+      border: 0.8px solid rgba(0, 0, 0, 0.5);
+      color: $black;
+      margin-bottom: 4.8rem;
+   }
+}
+
+@media (max-width: 400px) {
+   .btn-menu,
+   .btn-book {
+      padding: 1rem 2rem;
+   }
+}
+

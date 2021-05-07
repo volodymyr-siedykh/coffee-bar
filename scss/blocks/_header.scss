@@ -1,0 +1,75 @@
+.header-bg {
+   background-image: url(/img/coffee-bg.jpg);
+   background-color: $black;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   // filter: brightness(0.6);
+}
+
+.header__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: $white;
+   padding-top: 2.5rem;
+}
+
+.header__logo {
+   font-family: $kaushan;
+   font-size: 2.4rem;
+   line-height: 3.5rem;
+}
+
+.header__search {
+   display: flex;
+}
+
+.item__search img {
+   width: 2.4rem;
+   height: 2.4rem;
+}
+
+.item__basket img {
+   margin-left: 2.4rem;
+   width: 2.4rem;
+   height: 2.4rem;
+}
+
+.header__intro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.header__title {
+   max-width: 88rem;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 6.8rem;
+   font-family: $kaushan;
+   font-size: 7.4rem;
+   line-height: 8.8rem;
+   letter-spacing: 0.02em;
+   color: $white;
+}
+
+@media (max-width: 525px) {
+   .header__title {
+      padding-top: 2.8rem;
+      font-size: 6.4rem;
+      line-height: 6.8rem;
+   }
+}
+
+
+
+
+
+
+
+
+
+

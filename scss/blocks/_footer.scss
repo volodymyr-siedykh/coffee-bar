@@ -1,0 +1,117 @@
+.footer-bg {
+    padding-top: 5rem;
+    background-color: $black;
+    display: block;
+    height: 100%;
+}
+
+.footer__wraper {
+    display: flex;
+    color: $white;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    font-family: $kaushan;
+    font-size: 3.2rem;
+    line-height: 2rem;
+    color: $white;
+}
+
+.footer__title {
+    margin-bottom: 2.6rem;
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $white;
+}
+
+.footer__item {
+    padding-left: 4rem;
+    position: relative;
+}
+
+.footer__menu {
+    
+}
+
+.footer__icon {
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+}
+
+.footer__name {
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $white;
+}
+
+.footer__price {
+    margin-bottom: 3.6rem;
+    font-family: $montserrat;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: $white;
+    opacity: 0.7;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer__link {
+    font-family: $montserrat;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+    color: $white;
+    opacity: 0.7;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-family: $montserrat;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+    color: $white;
+    opacity: 0.7;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+img {
+    display: block;
+}
+
+.social {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .footer__wraper {
+        flex-direction: column;
+    }
+    .footer__title {
+        margin-top: 2rem;
+    }
+    .footer__price {
+        margin-bottom: 1.6rem;
+    }
+}

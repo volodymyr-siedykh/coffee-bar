@@ -1,0 +1,14 @@
+.navbar__list {
+   display: flex;
+}
+
+.navbar__item {
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+
+@media (max-width: 830px) {
+   .navbar__list {
+      display: none;
+   }
+}

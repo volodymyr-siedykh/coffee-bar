@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600&family=Vidaloka&display=swap');
+@import 'vendor/reset';
+@import 'vars';
+@import 'mixins';
+@import 'grid';
+
+html {
+   font-size: 62.5%;
+   min-height: 100%;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.4rem;
+   font-weight: 400;
+   line-height: 2.4rem;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+   &:hover {
+      text-decoration: underline;
+   }
+}
+
+// blocks
+@import 'blocks/header';
+@import 'blocks/navbar';
+@import 'blocks/btn';
+@import 'blocks/features';
+@import 'blocks/booking';
+@import 'blocks/menu';
+@import 'blocks/gallery';
+@import 'blocks/testimonials';
+@import 'blocks/about';
+@import 'blocks/blog';
+@import 'blocks/newsletter';
+@import 'blocks/footer';
+
