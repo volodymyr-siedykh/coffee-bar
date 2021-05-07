@@ -1156,7 +1156,7 @@ a:hover {
 }
 
 .header1-bg {
-  background-image: url(/img/about.png);
+  background-image: url(../img/about.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1227,7 +1227,7 @@ a:hover {
 }
 
 .blog__item-main {
-  background-image: url(/img/blog/blog-1.jpg);
+  background-image: url(../img/blog/blog-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
