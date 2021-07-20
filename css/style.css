@@ -400,8 +400,8 @@ a:hover {
 }
 
 .header-bg {
-  background-image: url(./img/coffee-bg.jpg);
   background-color: #01041d;
+  background-image: url(../img/coffee-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
